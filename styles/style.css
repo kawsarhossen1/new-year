@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.font-family: "Inter",
+sans-serif;
+.font-family: "Merriweather",
+serif;
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {}
+
+.happy-new {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+
+    width: 1320px;
+    height: 600px;
+    left: 140px;
+    right: -140px;
+    top: 50px;
+    bottom: -50px;
+
+
+}
+
+
+.header h4 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 120px;
+
+
+
+
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    padding-left: 344px;
+    padding-right: 344px;
+    padding-bottom: 177px;
+
+}
+
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.offer-section {
+    text-align: center;
+    padding-top: 120px;
+    font-family: inter;
+}
+
+.offer-section h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+
+}
+
+.offer-section p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+
+}
+
+.offer-section h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    margin-top: 16px;
+}
+
+.offer-section img {
+    height: 500px;
+    width: 802px;
+    border: 2px solid;
+    /* margin-left: 48px 398px 120px 398px; */
+    margin-bottom: 120px;
+    margin-top: 48px;
+}
+
+.perty {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+.party-container {
+    display: flex;
+    padding-top: 126px;
+    padding-left: 126px;
+    gap: 40px;
+}
+
+.perty-item h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.perty-item p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.perty-item a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 48px;
+}
+
+.perty-image {
+    width: 319.83px;
+    height: 464.66px;
+    left: 1002.17px;
+    right: -2px;
+    top: 1764.11px;
+    bottom: -1628.77px;
+    margin-top: -42px;
+    margin-right: 138px;
+
+    border: 2px dashed black;
+    background: linear-gradient(139.08deg, rgb(234, 189, 84) -30.855%, rgb(240, 203, 102) -18.163%, rgb(251, 228, 133) 7.221%, rgb(255, 237, 145) 22.029%, rgb(254, 236, 143) 60.105%, rgb(252, 230, 136) 74.913%, rgb(248, 221, 125) 83.374%, rgb(242, 208, 108) 91.836%, rgb(234, 189, 84) 98.182%, rgb(217, 170, 69) 108.759%, rgb(159, 109, 19) 140.489%, rgb(137, 85, 0) 155.297%, rgb(147, 96, 9) 157.412%, rgb(194, 146, 49) 167.989%, rgb(223, 177, 75) 176.45%, rgb(234, 189, 84) 180.681%);
+    background: transparent;
+
+}
+
+/* join now section style */
+
+.join-now {
+
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.join-item {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.join-item span {
+    color: rgb(255, 0, 0);
+}
+
+.join-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 48px;
+
+}
+
+/* best offer section styles */
+.best-offer {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-bottom: 120px;
+    
+}
+
+.best-container {
+    display: flex;
+
+
+}
+
+.best-item-1 {
+    margin-right: 70px;
+    margin-top: 108px;
+}
+
+.best-item-1 h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.best-item-1 h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.best-item-1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.best-item-2 {
+
+    margin-top: 100px;
+    margin-bottom: 49px;
+    border: 2px dashed rgb(182, 180, 180);
+
+
+}
+
+.best-item-2 img {
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 60%;
+
+}
+
+.best-item-3 {
+    margin-left: 118px;
+    margin-top: 112px;
+}
+
+.best-item-3 h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.best-item-3 p {
+
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.best-item-3 img{
+    background: linear-gradient(180.00deg, rgb(248, 246, 251) 13.701%,rgb(239, 220, 251) 176.468%);
+    background: transparent;
+    margin-top: 46px;
+    border: 2px dashed rgb(182, 180, 180);
+}
