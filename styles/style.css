@@ -410,9 +410,238 @@ main {
     width: 305.69px;
     height: 305.69px;
     margin-top: 50px;
-   padding-right: 25px;
-   
- 
-    
+    padding-right: 25px;
+}
 
+/* portfolio section styles  */
+.protfolio-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-text h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.portfolio-text h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-right: 724px;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 424px;
+    margin-bottom: 48px;
+}
+
+.portfolio-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+
+}
+
+.portfolio-item img {
+    border: 3px dashed rgb(182, 180, 180);
+}
+
+/* newsletter section styles */
+.newslatter {
+
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 120px;
+
+}
+
+.newslatter-img {
+    text-align: center;
+
+}
+
+.newslatter-img img {
+    border: 3px dashed rgb(182, 180, 180);
+    margin-top: 108px;
+}
+
+.newslatter-text h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 46px;
+}
+
+.newslatter-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 212px;
+    margin-left: 212px;
+    margin-top: 22px;
+}
+
+.newslatter-btn {
+    text-align: center;
+
+}
+
+.newslatter-btn input {
+    width: 648px;
+    height: 72px;
+    left: 476px;
+    right: -476px;
+    top: 6454.07px;
+    bottom: -6454.07px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 48px;
+
+}
+
+.newslatter-btn button {
+    width: 210px;
+    height: 72px;
+    left: 914px;
+    right: -914px;
+    top: 6454.07px;
+    bottom: -6454.07px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-weight: 600;
+    border-style: none;
+
+
+}
+
+/* footer section styles */
+footer{
+    margin-top: 120px;
+}
+footer hr {
+    
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer {
+    background: rgb(7, 2, 17);
+    
+}
+
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.footer-call {
+    color: white;
+    display: flex;
+    gap: 12px;
+}
+
+.footer-call img {
+    border: 1.5px solid rgb(255, 255, 255);
+
+}
+
+.footer-web {
+    color: white;
+    display: flex;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.footer-web img {
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.fotter-icon {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 120px;
+    margin-right: 140px;
+}
+
+.footer-social-icon {
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 47px;
+}
+
+.footer-social-icon img {
+    margin-left: 24px;
+    border: 3px dashed rgb(182, 180, 180);
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 50px 140px 0px 140px;
+    padding-bottom: 120px;
 }
