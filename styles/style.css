@@ -19,10 +19,8 @@ header {}
 
     width: 1320px;
     height: 600px;
-    left: 140px;
-    right: -140px;
-    top: 50px;
-    bottom: -50px;
+    margin: 0 auto;
+
 
 
 }
