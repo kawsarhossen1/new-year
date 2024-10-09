@@ -218,7 +218,7 @@ main {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding-bottom: 120px;
-    
+
 }
 
 .best-container {
@@ -307,11 +307,112 @@ main {
     line-height: 32px;
     letter-spacing: 0%;
     text-align: left;
-    
+
 }
-.best-item-3 img{
-    background: linear-gradient(180.00deg, rgb(248, 246, 251) 13.701%,rgb(239, 220, 251) 176.468%);
+
+.best-item-3 img {
+    background: linear-gradient(180.00deg, rgb(248, 246, 251) 13.701%, rgb(239, 220, 251) 176.468%);
     background: transparent;
     margin-top: 46px;
     border: 2px dashed rgb(182, 180, 180);
+}
+
+/* Holidays styles starts */
+
+.holidays-item {
+    text-align: center;
+}
+
+.holidays-item h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-top: 16px;
+
+
+}
+
+.holidays-item h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 196px;
+    margin-right: 196px;
+
+
+}
+
+.holidays-item span {
+    color: rgb(255, 0, 0);
+}
+
+.holidays-item p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 64px;
+}
+
+.holidays-imag {
+    display: flex;
+    gap: 177px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.holidays-imag-1 {
+    width: 674.82px;
+    height: 577.96px;
+    left: 200.83px;
+    right: -200.83px;
+    top: 3925px;
+    bottom: -3925px;
+    padding: 0px 60px 84px 60px;
+
+    border: 3px dashed rgb(182, 180, 180);
+
+}
+
+.holidays-imag-2 {
+
+    width: 206.84px;
+    height: 206.84px;
+    left: 4.17%;
+    right: 1.83%;
+    top: 57.02%;
+    bottom: -51.02%;
+    transform: rotate(-34.21deg);
+    margin-right: 100px;
+    margin-top: 49px;
+    margin-bottom: 40px;
+
+
+
+
+}
+
+.image-border {
+    border: 3px dashed rgb(182, 180, 180);
+    width: 305.69px;
+    height: 305.69px;
+    margin-top: 50px;
+   padding-right: 25px;
+   
+ 
+    
+
 }
